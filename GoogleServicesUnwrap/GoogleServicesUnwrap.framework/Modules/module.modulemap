@@ -1,0 +1,11 @@
+framework module GoogleServicesUnwrap {
+  umbrella header "GoogleServicesUnwrap.h"
+
+  export *
+  module * { export * }
+}
+
+module GoogleServicesUnwrap.Swift {
+    header "GoogleServicesUnwrap-Swift.h"
+    requires objc
+}
